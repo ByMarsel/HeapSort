@@ -18,11 +18,6 @@ namespace HeapSort
                 BuildHeapTwo(array, i);
                 Swap(array, 0, i - 1);
             }
-            
-            foreach (var num in array)
-            {
-                Console.Write(num+", ");
-            }
         }
 
         static void BuildHeapTwo(int[] array, int length)
